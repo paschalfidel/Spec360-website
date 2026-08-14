@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: spec360-server
+    runtime: node
+    repo: https://github.com/paschalfidel/Spec360-website
+    branch: main
+    rootDir: server
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+    autoDeploy: true
