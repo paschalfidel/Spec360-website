@@ -1,0 +1,13 @@
+{
+  "name": "Spec360 Communication",
+  "short_name": "Spec360",
+  "description": "Smartphones, accessories, repairs, connectivity and digital technology services.",
+  "icons": [
+    { "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#090909",
+  "background_color": "#090909",
+  "display": "standalone",
+  "start_url": "/"
+}
